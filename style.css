@@ -1,0 +1,71 @@
+/* ===============================
+   Custom Styles for Personal Site
+   Author: Andrea Pierce
+================================== */
+
+/* Font Overrides */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #fffefb;
+}
+
+/* Header Styling */
+h2, h3 {
+  font-weight: 700;
+  color: #1d3557;
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+/* Section Padding */
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Card Enhancements */
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #1d3557;
+  border-color: #1d3557;
+}
+
+.btn-primary:hover {
+  background-color: #457b9d;
+  border-color: #457b9d;
+}
+
+/* Footer Customization */
+footer {
+  background-color: #1d3557;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Responsive Typography Tweaks */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+  }
+}
